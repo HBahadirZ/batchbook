@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "private": true,
+  "name": "batchbook",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}

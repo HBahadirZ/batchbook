@@ -1,0 +1,30 @@
+{
+  "id": "./",
+  "name": "Batchbook: Recipe Cost Calculator",
+  "short_name": "Batchbook",
+  "description": "Price a recipe from the package you bought, then set a menu price from your food-cost target. Pay once, no subscription.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#F6F1E8",
+  "theme_color": "#3C2415",
+  "orientation": "any",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    { "src": "icons/icon-48.png", "sizes": "48x48", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "screenshots": [
+    { "src": "store-assets/screenshot-1-rolls.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Food cost and profit on a batch of cinnamon rolls" },
+    { "src": "store-assets/screenshot-2-lunch.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "A menu price that hits a 30 percent food cost" }
+  ],
+  "shortcuts": [
+    { "name": "New recipe", "short_name": "New", "url": "./?action=new", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
